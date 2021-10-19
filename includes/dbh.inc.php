@@ -1,8 +1,8 @@
 <?php
 
-$servername ="mars.iuk.hdm-stuttgart.de/";
+$servername ="mars.iuk.hdm-stuttgart.de";
 $dBUsername = "mp168";
-$dBPassword = "aid6so9Ges";
+$dBPassword = "Wacsyma9dampuzuskizWacsyma9dampuzuskizman";
 $dBName = "u-mp168";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);

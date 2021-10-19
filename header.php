@@ -15,11 +15,6 @@ session_start();
 <body>
 
 <header>
-    <nav class="nav-header-main">
-        <ul>
-            <li><a href="#">Chat</a></li>
-        </ul>
-    </nav>
     <div class="header-login">
         <?php
         if (isset($_SESSION['userId'])) {
