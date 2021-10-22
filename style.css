@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: arial;
 }
 
+.bierblog {
+    text-align: center;
+    font-size: 26px;
+    font-family: arial;
+    color: #111;
+}
 button {
     cursor: pointer;
 }
@@ -139,6 +146,7 @@ h1 {
     font-size: 26px;
     font-family: arial;
     color: #111;
+    margin: 26px;
 }
 
 /* signup.php */
@@ -191,91 +199,8 @@ h1 {
     text-align: center;
 }
 
-#stream {
-    border: none;
-    border-radius: 4px;
-    background-color: #F6F6F6;
-    font-family: arial;
-    float:left;
-    width: 548px;
-    height: 400px;
-    overflow: auto;
-    border: 1px solid black;
-}
 
-#userliste {
-    border: none;
-    border-radius: 4px;
-    float: left;
-    width: 150px;
-    height: 400px;
-    border: 1px solid black;
-    margin-left: 2px;
-}
 
-#userliste h1 {
-    width: 150px;
-    height: 22px;
-    background-color: #333;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    margin: 0px;
-}
-
-#userstream {
-    font-family: arial;
-    width: 150px;
-    height: 378px;
-    overflow: auto;
-}
-
-#userstream ul li {
-    list-style: none;
-    padding: 1px 0px 1px 0px;
-}
-
-#chatfenster {
-    clear:both;
-}
-
-#stream div {
-    background-color: #F6F6F6;
-    margin: 3px 5px 3px 5px;
-}
-
-#message {
-    height: 65px;
-    width:640px;
-    padding: 0 15px;
-    border: none;
-    border-radius: 4px;
-    background-color: #F6F6F6;
-    float: left;
-    margin-left: 8px;
-    font-family: arial;
-    margin: 3px 5px 3px 5px;
-    border: 1px solid black;
-}
-
-#submit {
-    width: 70px;
-    height: 65px;
-    padding: 0 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #333;
-    margin-left: 8px;
-    font-family: arial;
-    font-size: 13px;
-    color: #FFF;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#table tr td {
-    vertical-align: top;
-}
 
 h4 {
     font-family: arial;
@@ -283,58 +208,4 @@ h4 {
     font-size:12pt;
 }
 
-#color{
-    width: 700px;
-    height:20px;
-    margin: 5x 0px 3px 0px;
-}
 
-.colorset {
-    float: left;
-    width: 15px;
-    height: 15px;
-    margin: 0px 3px 0px 3px;
-    cursor: pointer;
-}
-
-.red{
-    background: red;
-}
-
-.blue{
-    background: blue;
-}
-.lightblue{
-    background: #21CEC8;
-}
-.darkred{
-    background: #891719;
-}
-.black{
-    background: black;
-}
-.green{
-    background: green;
-}
-.purple{
-    background: purple;
-}
-.orange{
-    background: orange;
-}
-.cactive{
-    width: 30px;
-    height: 30px;
-}
-
-.auswahl{
-    width: calc(100%);
-    height: 30px;
-    padding: 0 15px;
-    margin-bottom: 6px;
-    border: 1px solid #CCC;
-    border-radius: 4px;
-    background-color: #F6F6F6;
-    float: left;
-    font-family: arial;
-}
